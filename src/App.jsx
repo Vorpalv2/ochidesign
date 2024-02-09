@@ -3,7 +3,7 @@ import { Navbar } from "./components/Navbar.jsx";
 
 function App() {
   return (
-    <div className="text-white h-screen w-full">
+    <div className="text-white h-screen w-full bg-white">
       <Navbar />
       <Landing />
     </div>
