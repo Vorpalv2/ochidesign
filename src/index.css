@@ -16,10 +16,11 @@
 }
 
 ::-webkit-scrollbar {
-  background-color: #18181b;
+  /* background-color: #18181b; */
+  display: none;
 }
 
 ::-webkit-scrollbar-button {
-  background-color: brown;
+  /* background-color: brown; */
   border-radius: 70%;
 }

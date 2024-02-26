@@ -4,7 +4,7 @@ import { Marquee } from "./components/Marquee.jsx";
 
 function App() {
   return (
-    <div className="text-white h-screen w-full bg-white">
+    <div className="text-white min-h-screen w-full bg-zinc-900">
       <Navbar />
       <Landing />
       <Marquee />

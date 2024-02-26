@@ -2,7 +2,7 @@ import { FaArrowUpLong } from "react-icons/fa6";
 
 function Landing() {
   return (
-    <div className="w-full h-screen bg-zinc-900 pt-1">
+    <div className="w-full h-screen bg-zinc-900 -mb-[5rem] pt-1">
       <div className="textstructure mt-40 px-20 font-semibold">
         {["We Create", "Eye-Opening", "Presentation"].map((element, index) => {
           return (
@@ -38,10 +38,10 @@ function Landing() {
           );
         })}
         <div className="Start flex items-center gap-3">
-          <div className="px-5 py-2 border-[1px] border-zinc-500 font-light text-md uppercase rounded-full">
+          <div className=" hover:cursor-pointer px-5 py-2 border-[1px] border-zinc-500 font-light text-md uppercase rounded-full">
             Start the Project
           </div>
-          <div className="w-10 h-10 flex items-center justify-center border-[1px] rounded-full border-zinc-500">
+          <div className="hover:cursor-pointer w-10 h-10 flex items-center justify-center border-[1px] rounded-full border-zinc-500">
             <span className="rotate-[45deg]">
               <FaArrowUpLong />
             </span>
