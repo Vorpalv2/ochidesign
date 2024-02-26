@@ -14,3 +14,12 @@
 .animate-left-to-right {
   animation: leftToRight 5s linear infinite;
 }
+
+::-webkit-scrollbar {
+  background-color: #18181b;
+}
+
+::-webkit-scrollbar-button {
+  background-color: brown;
+  border-radius: 70%;
+}
