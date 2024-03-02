@@ -1,6 +1,7 @@
 import Landing from "./components/Landing.jsx";
 import { Navbar } from "./components/Navbar.jsx";
 import { Marquee } from "./components/Marquee.jsx";
+import About from "./components/About.jsx";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Landing />
       <Marquee />
+      <About />
     </div>
   );
 }
