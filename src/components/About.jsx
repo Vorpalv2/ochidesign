@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className="w-full p-20 text-black bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl">
-      <h1 className="font-['Neue_Montreal] leading-[3.5vw] text-[3.5vw] tracking-tight">
+      <h1 className="font-['Neue_Montreal'] leading-[3.5vw] text-[3.5vw] tracking-tight">
         Ochi is a strategic partner for fast-grow­ing tech businesses that need
         to <span className=" underline">raise funds</span>,{" "}
         <span className="underline"> sell products</span>,
