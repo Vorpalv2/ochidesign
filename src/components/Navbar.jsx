@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="fixed z-50 px-20 py-8 w-full font-['Neue_Montreal'] flex justify-between items-center navbar">
+    <div className="fixed z-50 px-20 py-8 w-full font-['Neue_Montreal'] flex justify-between items-center">
       <div className="logo">
         <svg
           width="72"
