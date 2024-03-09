@@ -2,6 +2,7 @@ import Landing from "./components/Landing.jsx";
 import { Navbar } from "./components/Navbar.jsx";
 import { Marquee } from "./components/Marquee.jsx";
 import About from "./components/About.jsx";
+import Eyes from "./components/Eyes.jsx";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Landing />
       <Marquee />
       <About />
+      <Eyes />
     </div>
   );
 }
