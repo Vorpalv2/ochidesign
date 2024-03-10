@@ -6,6 +6,16 @@ const Featured = () => {
           Featured projects
         </h1>
       </div>
+      <div className="w-full mt-12 flex px-20">
+        <div className="relative w-1/2">
+          <div className="absolute top-[2px] bg-black rounded-xl h-5 w-5"></div>
+          <div className="absolute left-8">FYDE</div>
+        </div>
+        <div className="relative w-1/2">
+          <div className="absolute top-[2px] bg-black rounded-xl h-5 w-5"></div>
+          <div className="absolute left-8">VISE</div>
+        </div>
+      </div>
       <div className="px-20">
         <div className="cards w-full flex gap-10 mt-10">
           <div className="cardcontainer relative w-1/2 h-[75vh]">
