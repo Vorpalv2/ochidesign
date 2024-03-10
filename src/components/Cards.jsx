@@ -7,14 +7,30 @@ const Cards = () => {
             src="https://ochi.design/wp-content/uploads/2022/04/logo001.svg"
             alt="ochi logo"
           />
-          <button className="absolute left-10 bottom-10 px-5 py-1 rounded-full border-2">
+          <button className="absolute text-[#77A858] text-2xl left-10 bottom-10 px-5 py-1 rounded-full border-2">
             &copy; 2019-2024
           </button>
         </div>
       </div>
-      <div className="cardcontainer flex gap-5 w-1/2 h-[50vh]">
-        <div className="card rounded-xl w-full h-full bg-[#1e2d2c]"></div>
-        <div className="card rounded-xl w-full h-full bg-[#1e2d2c]"></div>
+      <div className="relative cardcontainer flex gap-5 w-1/2 h-[50vh]">
+        <div className="card flex items-center justify-center rounded-xl w-full h-full bg-[#1e2d2c]">
+          <img
+            src="https://ochi.design/wp-content/uploads/2022/04/logo002.svg"
+            alt="clutch logo"
+          />
+          <button className="absolute uppercase text-[#77A858] text-2xl left-10 bottom-10 px-5 py-1 rounded-full border-2">
+            rating 5.0 on clutch
+          </button>
+        </div>
+        <div className="relative card flex items-center justify-center rounded-xl w-full h-full bg-[#1e2d2c]">
+          <img
+            src="https://ochi.design/wp-content/uploads/2022/04/logo002.svg"
+            alt="clutch logo"
+          />
+          <button className="absolute text-[#77A858] text-2xl left-10 bottom-10 px-5 py-1 rounded-full border-2 uppercase">
+            Rating 5.0 on clutch
+          </button>
+        </div>
       </div>
     </div>
   );
