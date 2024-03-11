@@ -6,6 +6,7 @@ import Eyes from "./components/Eyes.jsx";
 import Featured from "./components/Featured.jsx";
 import Cards from "./components/Cards.jsx";
 import Reviews from "./components/Reviews.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Featured />
       <Reviews />
       <Cards />
+      <Footer />
     </div>
   );
 }
