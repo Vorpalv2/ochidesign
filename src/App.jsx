@@ -7,8 +7,11 @@ import Featured from "./components/Featured.jsx";
 import Cards from "./components/Cards.jsx";
 import Reviews from "./components/Reviews.jsx";
 import Footer from "./components/Footer.jsx";
+import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
+  const locomotiveScroll = new LocomotiveScroll();
+
   return (
     <div className="text-white min-h-screen w-full bg-zinc-900">
       <Navbar />

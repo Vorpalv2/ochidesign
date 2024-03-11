@@ -79,13 +79,15 @@ const Footer = () => {
             ></path>
           </svg>
         </div>
-        <div className="absolute left-1/2 top-8 text-2xl">
+        <div className="absolute left-1/2 top-8 text-2xl opacity-60">
           © ochi design 2024.{" "}
-          <span className="underline">
+          <span className="underline opacity-60">
             <a href="/">Legal Terms</a>
           </span>
         </div>
-        <div className="absolute right-10 top-8 text-2xl">Website by Obys</div>
+        <div className="absolute right-10 top-8 text-2xl opacity-60">
+          Website by Obys
+        </div>
       </div>
     </>
   );

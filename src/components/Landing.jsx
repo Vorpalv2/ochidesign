@@ -1,4 +1,5 @@
 import { FaArrowUpLong } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 function Landing() {
   return (
@@ -9,7 +10,10 @@ function Landing() {
             <div key={index} className="masker overflow-hidden">
               <div className="w-fit flex">
                 {index === 1 && (
-                  <img
+                  <motion.img
+                    initial={{ width: 0 }}
+                    animate={{ width: "8vw" }}
+                    transition={{ ease: [0.5, 0, 0.75, 0.2], duration: 0.4 }}
                     className="w-[8vw] h-[5vw] relative top-[1.8vh] rounded-lg mr-4"
                     src={`https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg`}
                     alt="promotionArt"
