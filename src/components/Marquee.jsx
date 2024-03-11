@@ -1,7 +1,13 @@
 import { motion } from "framer-motion";
 function Marquee() {
   return (
-    <div className="w-full bg-[#004D43] py-14 rounded-tl-3xl rounded-tr-3xl ">
+    <div
+      data-scroll
+      data-scroll-speed=".02"
+      data-scroll-section
+      // data-scroll-offset="100%,-100%"
+      className="w-full h-[60vh] bg-[#004D43] py-14 rounded-tl-3xl rounded-tr-3xl "
+    >
       <div className="text border-t-[1px] border-b-[1px] my-[4vh] border-zinc-300 flex whitespace-nowrap overflow-hidden">
         <motion.h1
           initial={{ x: "0" }}

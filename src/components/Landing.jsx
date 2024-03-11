@@ -3,7 +3,12 @@ import { motion } from "framer-motion";
 
 function Landing() {
   return (
-    <div className="w-full h-screen bg-zinc-900 -mb-[5rem] pt-1">
+    <div
+      data-scroll
+      data-scroll-speed="-.3"
+      data-scroll-offset="100%,-100%"
+      className="w-full h-screen bg-zinc-900 -mb-[5rem] pt-[14vh]"
+    >
       <div className="textstructure mt-40 px-20 font-semibold">
         {["We Create", "Eye-Opening", "Presentation"].map((element, index) => {
           return (

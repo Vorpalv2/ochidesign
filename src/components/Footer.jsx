@@ -1,19 +1,36 @@
+import { animate, motion } from "framer-motion";
+
 const Footer = () => {
   return (
     <>
       <div className="w-full justify-around flex h-screen bg-zinc-900 p-20">
         <div className="w-1/2font-['Founders Grotesk X Cond-Lg'] pr-[10vw]">
-          <h1 className="text-[6vw] font-bold tracking-tight uppercase -mb-20">
+          <motion.h1
+            initial={{ y: 100 }}
+            animate={{ y: 0 }}
+            transition={{ ease: [0.5, 0, 0.75, 0.2], duration: 0.4 }}
+            className="text-[6vw] font-bold tracking-tight uppercase -mb-20"
+          >
             Eye-
-          </h1>
-          <h1 className="text-[6vw] font-bold tracking-tight uppercase -mb-20">
+          </motion.h1>
+          <motion.h1
+            initial={{ y: 100 }}
+            animate={{ y: 0 }}
+            transition={{ ease: [0.5, 0, 0.75, 0.2], duration: 0.4 }}
+            className="text-[6vw] font-bold tracking-tight uppercase -mb-20"
+          >
             Opening
-          </h1>
+          </motion.h1>
         </div>
         <div className="w-1/2">
-          <h1 className="uppercase text-[6vw] font-bold tracking-tighter">
+          <motion.h1
+            initial={{ y: 100 }}
+            animate={{ y: 0 }}
+            transition={{ ease: [0.5, 0, 0.75, 0.2], duration: 0.4 }}
+            className="uppercase text-[6vw] font-bold tracking-tighter"
+          >
             Presentations
-          </h1>
+          </motion.h1>
           <div className=" grid grid-cols-2">
             <div>
               <h3 className=" mb-3 text-[1vw] pt-20">S:</h3>
@@ -82,7 +99,7 @@ const Footer = () => {
         <div className="absolute left-1/2 top-8 text-2xl opacity-60">
           © ochi design 2024.{" "}
           <span className="underline opacity-60">
-            <a href="/">Legal Terms</a>
+            <motion.a href="/">Legal Terms</motion.a>
           </span>
         </div>
         <div className="absolute right-10 top-8 text-2xl opacity-60">
