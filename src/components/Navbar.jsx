@@ -1,7 +1,30 @@
+const navData = [
+  {
+    navName: "Services",
+    navLink: "/Services",
+  },
+  {
+    navName: "Our works",
+    navLink: "/Ourworks",
+  },
+  {
+    navName: "About us",
+    navLink: "/Aboutus",
+  },
+  {
+    navName: "Insights",
+    navLink: "/Insights",
+  },
+  {
+    navName: "Contact",
+    navLink: "/Contact",
+  },
+];
+
 const Navbar = () => {
   return (
     <div className="fixed z-50 px-20 py-8 w-full font-['Neue_Montreal'] flex justify-between items-center">
-      <div className="logo">
+      <a href="/" className="logo">
         <svg
           width="72"
           height="30"
@@ -30,23 +53,21 @@ const Navbar = () => {
             fill="currentColor"
           ></path>
         </svg>
-      </div>
+      </a>
       <div className="links flex gap-10">
-        {["Services", "Our works", "About us", "Insights", "Contact"].map(
-          (element, index) => {
-            return (
-              <a
-                className={`text-lg font-light capitalize ${
-                  index == 4 && "ml-32"
-                }`}
-                key={index}
-                href="/"
-              >
-                {element}
-              </a>
-            );
-          }
-        )}
+        {navData.map((element, index) => {
+          return (
+            <a
+              className={`text-lg font-light capitalize ${
+                index == 4 && "ml-32"
+              }`}
+              key={index}
+              href={element.navLink}
+            >
+              {element.navName}
+            </a>
+          );
+        })}
       </div>
     </div>
   );
