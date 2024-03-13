@@ -1,10 +1,10 @@
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
     <>
       <div className="w-full justify-around flex h-screen bg-zinc-900 p-20">
-        <div className="w-1/2font-['Founders Grotesk X Cond-Lg'] pr-[10vw]">
+        <div className="w-1/2 font-['Founders Grotesk X Cond-Lg'] pr-[10vw]">
           <motion.h1
             initial={{ y: 100 }}
             animate={{ y: 0 }}
